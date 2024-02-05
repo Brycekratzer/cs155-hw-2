@@ -1,0 +1,39 @@
+Return-Path: <brycekratzer@u.boisestate.edu>
+Received: from codespaces-16c839.0aevho15jh2e1b1giap2beo2ch.xx.internal.cloudapp.net ([4.154.8.176])
+        by smtp.gmail.com with ESMTPSA id u5-20020a170902b28500b001d944b3c5f1sm425177plr.178.2024.02.05.15.27.33
+        for <brycekratzer@u.boisestate.edu>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 05 Feb 2024 15:27:33 -0800 (PST)
+From: BRYCE KRATZER <brycekratzer@u.boisestate.edu>
+To: brycekratzer@u.boisestate.edu
+Subject: [PATCH] Submit project
+Date: Mon,
+  5 Feb 2024 23:27:04 +0000
+Message-ID: <20240205232704.16516-1-brycekratzer@u.boisestate.edu>
+X-Mailer: git-send-email 2.43.0
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+
+---
+ my-name.txt  | 1 +
+ the-date.txt | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 my-name.txt
+ create mode 100644 the-date.txt
+
+diff --git a/my-name.txt b/my-name.txt
+new file mode 100644
+index 0000000..4511b83
+--- /dev/null
++++ b/my-name.txt
+@@ -0,0 +1 @@
++Bryce Kratzer
+diff --git a/the-date.txt b/the-date.txt
+new file mode 100644
+index 0000000..8f228f2
+--- /dev/null
++++ b/the-date.txt
+@@ -0,0 +1 @@
++Mon Feb  5 23:04:48 UTC 2024
+-- 
+2.43.0
